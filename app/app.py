@@ -30,3 +30,8 @@ def predict():
     if os.path.exists(image_path):
         os.remove(image_path)
     return result
+
+
+if __name__ == '__main__':
+    print("App is running")
+    app.run(host='0.0.0.0')
